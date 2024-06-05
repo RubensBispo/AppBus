@@ -2,8 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="botao">#0D4A7A</color>
-    <color name="botao_texto">#569ED8</color>
+    <color name="botao">#0D317A</color>
+    <color name="botao_texto">#F2F4F6</color>
+
 
 
 </resources>

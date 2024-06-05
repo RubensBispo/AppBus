@@ -21,12 +21,13 @@
         android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Insira seu e-mail"
-        android:textColor="#F5F7F8"
+
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="15dp"
-        android:inputType="textEmailAddress" />
+        android:hint="Insira seu e-mail"
+        android:inputType="textEmailAddress"
+        android:textColor="#F5F7F8" />
 
     <EditText
         android:id="@+id/edtSenha"
@@ -63,6 +64,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="35dp"
+            android:backgroundTint="@color/botao"
+            android:textColor="@color/botao_texto"
             android:text="Sair" />
     </LinearLayout>
 
