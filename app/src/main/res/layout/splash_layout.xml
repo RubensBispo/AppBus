@@ -6,6 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="#3F8BC8"
     tools:context=".SplashActivity">
 
     <ImageView
@@ -13,14 +15,18 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
-        android:src="#2c2c2c" />
+        android:background="#3F8BC8"
+        android:src="@drawable/bus" />
 
     <TextView
         android:id="@+id/txtNomeSplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="24sp"
+        android:textColor="#F5F7F8"
         android:layout_gravity="center_horizontal"
-        android:text="ApiBus" />
+        android:text="AppiBus" />
 
     <ProgressBar
         android:id="@+id/pgbSplash"
