@@ -31,4 +31,18 @@ public class MenuActivity extends AppCompatActivity {
         return true;
     }
 
+/*
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        if (id == R.id.action_search) {
+            // Lidar com o clique no item de pesquisa
+            return true;
+        } else if (id == R.id.action_settings) {
+            // Lidar com o clique no item de configurações
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+*/
 }
