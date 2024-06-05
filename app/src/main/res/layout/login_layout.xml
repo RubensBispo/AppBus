@@ -43,7 +43,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:background="#FF5722"
         android:orientation="horizontal">
 
         <Button
@@ -53,7 +52,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
             android:layout_marginRight="15dp"
-            android:background="#ccc"
+            android:backgroundTint="@color/botao"
+            android:textColor="@color/botao_texto"
             android:text="Entrar" />
 
         <Button
