@@ -61,7 +61,6 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
 
-
         // Exemplo usando PerformNetworkRequest (supondo que seja uma AsyncTask genérica)
         HashMap<String, String> params = new HashMap<>();
         params.put("email", email);
@@ -70,7 +69,5 @@ public class LoginActivity extends AppCompatActivity {
         PerformNetworkRequest request = new PerformNetworkRequest(Api.URL_GET_USUARIO, params, CODE_POST_REQUEST);
         request.execute();
     }
-
-
 
 }
